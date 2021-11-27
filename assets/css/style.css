@@ -614,3 +614,63 @@ CSS de Áreas Específicas
 .section-team--social a:hover {
     background-color: #b28756;
 }
+
+.section-clients-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-clients-area .client-avatar {
+    width: 150px;
+    height: auto;
+}
+
+.section-clients-area h4,
+.client-role {
+    margin-top: 15px;
+}
+
+.section-clients-area h4 {
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+}
+
+.client-role {
+    font-family: 'Montserrat-semibold';
+}
+
+.section-clients-area .quote {
+    margin-top: 20px;
+    max-width: 20px;
+    height: auto;
+}
+
+.section-clients-area p {
+    margin-top: 20px;
+    max-width: 750px;
+    color: #999;
+    line-height: 22px;
+}
+
+.section-clients-area .slider-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-clients-area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--default-color);
+    border-radius: 8px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.section-clients-area .pointer.active {
+    background-color: #b28756;
+}
