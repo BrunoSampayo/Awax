@@ -675,3 +675,76 @@ CSS de Áreas Específicas
 .section-clients-area .pointer.active {
     background-color: #b28756;
 }
+
+.default.light.sponsorship {
+    padding-bottom: 0;
+}
+
+.section-sponsorship {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.default.light.values {
+    background-color: rgb(240, 235, 235);
+    border-bottom: 1px solid #ccc
+}
+
+.section-pricing-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-pricing-prices {
+    background-color: #fff;
+    min-width: 240px;
+    margin: 12px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+.section-pricing-prices h3 {
+    font-family: 'Montserrat-SemiBold';
+    padding: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.section-pricing-prices h1 {
+    font-family: 'Montserrat-Bold';
+    font-size: 25px;
+}
+
+.section-pricing-prices p {
+    font-size: 8px;
+    color: #ccc;
+}
+
+.section-pricing-prices ul,
+.section-pricing-prices li {
+    list-style: none;
+    font-size: 10px;
+}
+
+.section-pricing-prices ul {
+    text-align: center;
+    padding: 10px;
+}
+
+.section-pricing-prices .button {
+    background-color: #555;
+}
+
+.section-pricing-prices .button.active {
+    background-color: #b28756;
+}
