@@ -76,9 +76,9 @@ header {
     height: 15px;
     transform: rotate(-45deg);
     position: relative;
-    border-top: 3px solid var(--default-color);
+    border-top: 4px solid var(--default-color);
     ;
-    border-right: 3px solid var(--default-color);
+    border-right: 4px solid var(--default-color);
     ;
 }
 
@@ -91,7 +91,7 @@ header {
 .logo-img:before,
 .logo-img:after {
     content: "";
-    width: 30px;
+    width: 32px;
     height: 30px;
     position: absolute;
 }
@@ -99,14 +99,14 @@ header {
 .logo-img:before {
     top: -33px;
     left: 0px;
-    border-left: 3px solid var(--default-color);
+    border-left: 4px solid var(--default-color);
     ;
 }
 
 .logo-img:after {
     right: -32px;
     top: -21px;
-    border-bottom: 3px solid var(--default-color);
+    border-bottom: 4px solid var(--default-color);
     ;
 }
 
@@ -649,9 +649,10 @@ CSS de Áreas Específicas
 
 .section-clients-area p {
     margin-top: 20px;
-    max-width: 750px;
+    max-width: 700px;
     color: #999;
     line-height: 22px;
+    padding: 20px;
 }
 
 .section-clients-area .slider-pointers {
