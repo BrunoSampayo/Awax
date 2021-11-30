@@ -745,6 +745,86 @@ CSS de Áreas Específicas
     background-color: #555;
 }
 
+.section-pricing-prices :hover.button {
+    background-color: #b28756;
+}
+
 .section-pricing-prices .button.active {
     background-color: #b28756;
+}
+
+.section-body-features {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.section-body-features .box-container {
+    flex: 1;
+}
+
+.section-body-features .box-container img {
+    display: block;
+    margin: auto;
+}
+
+.section-body-features .features {
+    flex: 1;
+}
+
+.feature {
+    margin-top: 10px;
+}
+
+.feature .feature-title {
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold';
+}
+
+.feature .feature-title h1 {
+    margin-left: 20px;
+}
+
+.feature .feature-text {
+    margin-left: 54px;
+    color: #bbb;
+    list-style: 20px;
+}
+
+.feature .feature-text ul {
+    margin-left: 10px;
+    list-style: '- ';
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-body .slider-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-body .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--default-color);
+    border-radius: 8px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.section-body .pointer.active {
+    background-color: #b28756;
+}
+
+.section-body .features-button {
+    display: flex;
+    justify-content: center;
 }
