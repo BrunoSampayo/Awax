@@ -849,7 +849,7 @@ CSS de Áreas Específicas
     width: 25px;
     height: 4px;
     border-radius: 5px;
-    background-color: #999;
+    background-color: #bbb;
     display: block;
     margin: auto;
 }
@@ -863,5 +863,71 @@ CSS de Áreas Específicas
 .section-fact p {
     margin-top: 10px;
     font-size: 13px;
-    color: #999;
+    color: #bbb;
+}
+
+.section-tell-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-tell-about .about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-tell-about .about-us h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    color: #bbb;
+}
+
+.section-tell-about .social-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.section-tell-about .social-network a {
+    margin-right: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+}
+
+.section-tell-about .social-network p {
+    padding: 4px;
+    font-size: 10px;
+    color: #bbb;
+    margin-right: 4px;
+}
+
+.section-contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-contact-details .input-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact-details .input-lines input {
+    margin: 20px;
+    font-family: 'Montserrat-semibold';
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+    width: 20em;
 }
