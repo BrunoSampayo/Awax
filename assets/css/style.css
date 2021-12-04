@@ -1291,6 +1291,7 @@ CSS de Áreas Específicas
     }
     .section-footer--area {
         justify-content: center;
+        align-items: center;
     }
     .section-map--info-item:last-child {
         margin-bottom: 0;
